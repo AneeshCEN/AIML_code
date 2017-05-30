@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Dr. Wallace"/>
+<meta name="language" content="en"/>
+
+
+
+
+
+<category>
+<pattern>THANKS</pattern>
+<template>
+Welcome..
+</template>
+</category>
+
+<category>
+<pattern>THANK YOU</pattern>
+<template>
+<srai>THANKS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* THANK YOU</pattern>
+<template>
+<srai>THANKS</srai>
+</template>
+</category>
+
+<category>
+<pattern>* THANKS</pattern>
+<template>
+Welcome..
+</template>
+</category>
+
+
+<category>
+<pattern>OK</pattern>
+<template>
+Ok.
+</template>
+</category>
+
+<category>
+<pattern>OK FINE</pattern>
+<template>
+Ok.
+</template>
+</category>
+
+
+<category>
+<pattern>FINE</pattern>
+<template>
+Ok.
+</template>
+</category>
+
+<category>
+<pattern>* DISEASES</pattern>
+<template>
+Diseases are disorder of structure or function in a human, animal, or plant, especially one that produces specific symptoms or that affects a specific location and is not simply a direct result of physical injury. I can help you to understand the diseases you have, if you can tell me about the symptoms you have.
+</template>
+</category>
+
+<category>
+<pattern>* DISEASES *</pattern>
+<template>
+Diseases are disorder of structure or function in a human, animal, or plant, especially one that produces specific symptoms or that affects a specific location and is not simply a direct result of physical injury. I can help you to understand the diseases you have, if you can tell me about the symptoms you have.
+</template>
+</category>
+
+<category>
+<pattern>I FEEL HAPPY</pattern>
+<template>
+Nice to hear that you are feeling happy.
+</template>  
+</category>   
+
+<category>
+<pattern>I FEEL GREAT</pattern>
+<template>
+Nice to hear that you are feeling great.
+</template>  
+</category>   
+
+<category>
+<pattern>I FEEL PLEASURE</pattern>
+<template>
+Nice to hear that you are feeling pleasure.
+</template>  
+</category>   
+
+<category>
+<pattern>I FEEL UNWELL</pattern>
+<template>
+So sad to hear it, What are the symptoms you are suffering from?.
+</template>  
+</category>   
+
+<category>
+<pattern>I FEEL SAD</pattern>
+<template>
+Sad to hear that.
+</template>  
+</category>   
+
+
+
+</aiml>
